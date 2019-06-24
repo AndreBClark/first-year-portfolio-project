@@ -1,0 +1,204 @@
+            * {
+                box-sizing: border-box;
+            }
+
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            #page {
+                width: 1000px;
+                margin: auto;
+            }
+
+            .menu {
+                width: 25%;
+                height: 600px;
+                max-width: 300px;
+                max-height: 100%;
+                min-width: 200px;
+                color: inherit;
+                background-color: #111;
+            }
+
+            .logo {
+                float: left;
+                align-content: space-between;
+            }
+
+            .image {
+                width: 25%;
+                height: 800px;
+                max-width: 280px;
+                max-height: 100%;
+                color: inherit;
+                background-color: #111;
+            }
+
+            .content {
+                
+                min-height: 600px;
+                width: 800px;
+                max-width: 50%;
+                overflow: hidden;
+            }
+
+
+            body {
+                color: inherit;
+                background-color: #555;
+                padding: 5px 0px 5px;
+            }
+
+            div {
+                color: inherit;
+                background-color: #aaa;
+                font-family: sans-serif;
+                padding-bottom: 10px;
+            }
+
+
+            h1 {
+                font-size: xx-large;
+            }
+
+            h2 {
+                font-family: sans-serif;
+                font-weight: bolder;
+                font-size: xx-large;
+            }
+
+            .column {
+                float: left;
+
+            }
+
+            .menu ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .menu li {
+                padding: 8px;
+                margin-bottom: 8px;
+                background-color: #111;
+                color: #fff;
+            }
+
+            .menu li:hover {
+
+                color: inherit;
+                background-color: #333;
+                font-family: sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+
+            }
+
+            .menuanchor {
+                color: #fff;
+                background-color: inherit;
+                font-family: sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            header,
+            footer {
+                vertical-align: middle;
+                font-family: sans-serif;
+                text-align: center;
+                color: #ffffff;
+                width: auto;
+                background: #333;
+                padding: 10px;
+            }
+
+            .container {
+                position: relative;
+            }
+
+            .center {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 18px;
+            }
+
+            article {
+                font-family: sans-serif;
+                text-align: justify;
+                padding: 0px 5px 0px 5px;
+                color: inherit;
+                background-color: #aaaaaa;
+            }
+
+            nav {
+                color: inherit;
+                background-color: #aaa;
+                text-align: left;
+            }
+
+            img {
+                display: block;
+            }
+
+            .q {
+                
+                width: 50%;
+                height: auto;
+            }
+
+            td {
+                padding: 10px;
+                text-align: center;
+                color: inherit;
+                background-color: #ccc;
+
+            }
+
+            table,
+            th {
+                table-layout: auto;
+                padding: 10px;
+                border-spacing: 10px;
+                border: 1px solid black;
+                text-align: center;
+            }
+
+            table {
+                color: inherit;
+                background-color: #FFF;
+                font-weight: bold;
+                width: 50%;
+            }
+
+            th {
+                font-weight: bolder;
+                background-color: #ccc;
+                color: inherit;
+            }
+
+            .illustrator {
+                color: inherit;
+                background-color: #ff7f00;
+            }
+
+            .webdesign {
+                color: inherit;
+                background-color: #339933;
+            }
+
+            .survey {
+                color: inherit;
+                background-color: #9900ff;
+            }
+
+            .english {
+                color: inherit;
+                background-color: #ff6666;
+            }

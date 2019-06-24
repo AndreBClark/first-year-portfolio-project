@@ -1,0 +1,154 @@
+			* {
+				box-sizing:border-box;
+				}
+				
+			.clearfix::after {
+				content: "";
+				clear: both;
+				display: table;
+
+			}
+			#page {
+				width: 1330px;
+				margin: auto;
+			}
+
+			.menu {
+				width: 20%;
+				height: 1825px;
+				max-width: 300px;
+				min-width: 100px;
+				color: inherit;
+				background-color: #111;
+					}
+
+					
+			.content {
+				min-height: 600px;
+				width: 960px;
+				min-width: 50%;
+				max-width: 50%;
+				align-content: center
+			}
+
+				
+			body {
+				color: inherit;
+				background-color: #660000;
+				}
+
+			div {
+				color: inherit;
+				background-color: #aaa;
+				font-family: sans-serif;
+				
+                }
+			.left {
+				text-align: left;
+			}
+			.center {
+				text-align: center;
+			}
+               
+			h1{
+				font-size: xx-large;
+							}
+			h2				{
+					font-family: sans-serif;
+					font-weight: bolder;
+					font-size:xx-large;
+							}
+			.column {
+					float: left;
+					
+			}			
+			.menu ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+			}
+			.menu li {
+					padding: 8px;
+					margin-bottom: 8px;
+					background-color: #111;
+					color: #fff;
+					}
+					
+			.menu li:hover {
+					
+					color: inherit;
+					background-color: #333;
+					font-family: sans-serif;
+					font-weight: bold;
+					text-decoration: none;
+										
+						}	
+			.menuanchor {
+                	color: #fff;
+                	background-color: inherit;
+	                font-family: sans-serif;
+	                font-weight: bold;
+	                text-decoration:none;
+	                }
+									
+			header,footer {
+					vertical-align: middle;
+					font-family: sans-serif;
+					text-align: center;
+					color: #ffffff;
+					background-color: #333;
+					width: auto;
+					padding: 0px;
+							}
+													
+
+            nav { 
+	            color: inherit;
+           	 	background-color: #aaa;
+		   	 	text-align: left;
+		   	 	float: top;
+                }
+
+			img {
+				align-content: space-around;
+			}
+			
+			
+			td {
+				padding: 10px;
+				text-align: center;
+				color: inherit;
+				background-color: #ccc;
+			}
+			
+			th {
+				font-weight: bolder;
+				font-size: xx-large; 
+				table-layout: auto;
+				padding: 10px;
+				border-spacing: 10px; 
+				border: 1px solid black; 
+				text-align: center;
+				color: #ffffff;
+				background-color: #660000;
+				}
+			table {
+				table-layout: auto;
+				padding: 10px;
+				border-spacing: 10px;
+				align-content: center;
+				align-self: center;  
+				text-align: center;
+				align-items: center;
+				
+				max-width: 100%;
+
+				}
+
+			.app {
+				min-width: 200px;
+				max-width: 200px;
+			}
+			.ribs {
+				width: 280px;
+			}

@@ -1,0 +1,85 @@
+/* Layout */
+.column {
+	float: left;
+}
+#container {
+	width: 1000px;
+	max-width: 100%;
+	margin: auto;
+}
+body {
+	font-family: sans-serif;
+	box-shadow: 2px 1px 1px 1px black;
+}
+header {
+	margin: auto;
+	background-color: #9cf;
+	vertical-align: middle;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ffffff;
+    width: auto;
+    padding: 10px;
+}
+
+#content {
+	overflow: hidden;
+	color: inherit;
+	background-color: #ffc;
+	width: 75%;
+}
+
+footer {
+	color: #ffffff;
+	background-color: #cc6699;
+	padding: 10px;
+	clear: both;
+	text-align: center
+	}
+
+/* Type */
+h1 {
+	text-shadow: 1px 1px 1px black;
+}
+p.intro {
+	font-family: sans-serif;
+}
+p.intro:first-letter {
+	font-size: 2em;
+	}
+p.intro:first-line {
+	font-weight: bold
+}
+
+
+
+/* Menu */
+#menu {
+    width: 25%;
+	color: inherit;
+	background-color: #ffffcc;
+	overflow-y: visible;
+}
+#menu ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+
+#menu .selected {
+	font-weight: bold;
+}
+#menu a:link {
+	text-decoration: none;
+	color: #9fc9eb;
+	background-color: inherit;
+}
+#menu li:hover {
+	background-color: #c69;
+	color: inherit;
+}
+#menu a:hover {
+	color: #ffc;
+	background-color: inherit;
+}

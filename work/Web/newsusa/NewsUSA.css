@@ -1,0 +1,119 @@
+            * {
+                box-sizing: border-box;
+            }
+
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            #page {
+                width: 1280px;
+                margin: auto;
+            }
+            
+            body {
+
+                color: inherit;
+                background-color: #fff;
+                padding: 5px 0px 5px;
+            	}
+            
+            .menu {
+                width: 20%;
+                height: 800px;
+                max-width: 200px;
+                color: inherit;
+                background-color: rgba(17, 17, 17, 0.16);
+                }
+            .content {
+                width: 864px;
+                min-height: 600px;
+                overflow: hidden;
+            }
+            div {
+                color: inherit;
+                background-color: #aaa;
+                font-family: sans-serif;
+                padding-bottom: 10px;
+            }
+
+            .column {
+                float: left;
+
+            }
+
+            .menu ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .menu li {
+                padding: 8px;
+                margin-bottom: 8px;
+                background-color: #111;
+                color: #fff;
+            }
+
+            .menu li:hover {
+
+                color: inherit;
+                background-color: #333;
+                font-family: sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+
+            }
+
+            .menuanchor {
+                color: #fff;
+                background-color: inherit;
+                font-family: sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            header,
+            footer {
+                vertical-align: middle;
+                font-family: sans-serif;
+                text-align: center;
+                color: #ffffff;
+                width: auto;
+                background: #333;
+                padding: 10px;
+            }
+            .center {
+            text-align: center;
+            }
+
+            article {                
+                text-align: justify;
+                padding: 0px 10px;
+                color: inherit;
+                background-color: inherit;
+            }
+            .full {
+                width: 100%;
+                
+            }
+			.YT {
+			height: 600px;
+				
+			}
+			.table {
+				display: table;
+			}
+			.cell {
+				display: table-cell;
+				width:50%;
+				float: left;
+				padding: 0px;
+			}
+			figcaption {
+				font-weight: bold;
+				font-style: italic;
+			}
+			

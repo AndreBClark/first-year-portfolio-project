@@ -1,0 +1,136 @@
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,900');
+            * {
+                font-family: 'Montserrat', sans-serif;
+                border-radius: 0 !important;
+            }	
+            body {
+                color: #fff;
+                background-color: #005959;
+                margin: 0px;
+                font-weight: 400;
+            }
+            .bg-teal{
+				background-color: #066;
+            }
+            .bg-none {
+				background: none;
+            }
+			.row {
+				background: -webkit-linear-gradient(to bottom, #066, #000);
+                background: linear-gradient(to bottom, #066, #000);
+                			}
+            .display-1 {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 100;
+                font-size: 15vw;
+            }
+
+            .bg-black {
+                background-color: #000;
+                color: #FFF;
+            }
+
+            h2 {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 900;
+            }
+
+            b {
+                font-weight: 900;
+            }
+
+            .jumbo-v {
+                margin-bottom: 0rem;
+                height: 100vh;
+                background: #066;
+                background: -webkit-linear-gradient(to bottom, #066, #8db);
+                background: linear-gradient(to bottom, #066, #000);
+                color: inherit;
+            }
+			.btn {
+				border-radius: 5px !important;
+				font-weight: 900;
+			}
+            .btn-primary {
+	            color: #fff;
+                background-color: #66adad;
+            }
+
+            .btn-info {
+	            color: #FFF;
+                background-color: #005959;
+                border-color: #005959;
+            }
+
+            .btn-info:hover {
+                color: #000;
+                background-color: #cce4e4;
+                border-color: #cce4e4;
+            }
+
+            .btn-secondary {
+                color: #000;
+                background-color: #cce4e4;
+                border-color: #cce4e4;
+            }
+			.card {
+
+			}
+			.card-img-top {
+				
+			}
+            .card-body {
+                border-color: #000;
+            }
+            
+            .card-header {
+	            border-radius: 50px 50px;
+            }
+			iframe {
+				height: 75vh;
+			}
+            @media (max-width: 768px) {
+                .btn {
+                    font-size: 1rem;
+                    padding: .5rem 1rem;
+                    margin: 5px;
+                }
+                h3,
+                .lead {
+                    font-size: .75rem;
+                }
+            }
+
+            @media (min-width: 768px) {
+                .btn {
+                    font-size: 1.5rem;
+                    padding: .2rem .5rem;
+                }
+                h3,
+                .lead {
+                    font-size: 2rem;
+                }
+            }
+
+            @media (min-width: 992px) {
+                .btn {
+                    font-size: 1rem;
+                    padding: .2rem .5rem;
+                }
+               h3,
+                .lead {
+                    font-size: 2rem;
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .btn {
+                    padding: .2rem .5rem;
+                    font-size: 2rem;
+                }
+				h3,
+                .lead {
+                    font-size: 2rem;
+                }
+            }
+            
